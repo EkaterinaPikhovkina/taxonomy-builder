@@ -2,6 +2,14 @@
 
 ---
 
+## 🚀 Screenshots
+
+![Screenshot 1](./assets/screenshot1.jpg)
+![Screenshot 2](./assets/screenshot2.jpg)
+![Screenshot 3](./assets/screenshot3.jpg)
+
+---
+
 ## ✨ Features
 
 *   **Manual Taxonomy Creation & Editing:** Allows for direct creation and modification of taxonomy structures.
@@ -12,14 +20,6 @@
 *   **Taxonomy Search:** Provides functionality to search within the taxonomy.
 *   **Network Graph Visualization:** Visualizes the taxonomy structure as an interactive network graph.
 *   **Taxonomy Export:** Allows exporting the generated taxonomy structure for further use, such as in ontology construction.
-
----
-
-## 🚀 Screenshots
-
-![Screenshot 1](./assets/screenshot1.jpg)
-![Screenshot 2](./assets/screenshot2.jpg)
-![Screenshot 3](./assets/screenshot3.jpg)
 
 ---
 
@@ -59,6 +59,8 @@ pip install -r requirements.txt
 ```bash 
 npm install
 ```
+
+---
 
 ## 📜 Running the application
 
