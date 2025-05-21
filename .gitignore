@@ -1,0 +1,99 @@
+# Environment variables and secrets (ALWAYS IGNORE)
+.env
+.env.*
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Node.js specific logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Generated files and build directories
+coverage/
+dist/
+dist-ssr/ 
+build/ 
+
+# General logs
+logs/ # Directory for logs
+*.log # All .log files
+
+# Operating System generated files
+.DS_Store # macOS
+Thumbs.db # Windows
+ehthumbs.db # Windows
+
+# IDE and Editor specific files
+.idea/ # JetBrains IDEs (PyCharm, IntelliJ, etc.)
+# VSCode specific files
+.vscode/*
+!.vscode/extensions.json
+# Vim swap files and backups
+*.swp
+*.swo
+*.swn
+*~ # Vim backup files
+.#* # Emacs lock files
+# Visual Studio specific (often for .NET, but can appear)
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+
+# Python / FastAPI (Backend)
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.direnv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod] # .pyc, .pyo, .pyd
+*$py.class # Jython
+*.so # Compiled C extensions
+
+# Python package manager and dependency files
+*.egg-info/
+*.egg
+pip-log.txt
+pip-delete-this-directory.txt
+.installed.cfg 
+wheelhouse/ 
+
+# Python testing and coverage files
+htmlcov/ 
+.coverage 
+.coverage.* 
+.pytest_cache/ 
+.tox/ 
+nosetests.xml 
+coverage.xml 
+
+
+# Node.js / React (Frontend)
+# Dependencies
+node_modules/
+
+# Yarn PnP
+.pnp
+.pnp.js
+
+# Build directories for React/Frontend frameworks
+.next/ # Next.js
+.nuxt/ # Nuxt.js
+.svelte-kit/ # SvelteKit
+out/ # Next.js static export
+
+# Node.js specific temporary and cache files
+.eslintcache
+.stylelintcache
+.yarn-integrity # Yarn lockfile metadata

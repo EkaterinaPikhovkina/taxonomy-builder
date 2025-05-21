@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --font-inter: "Inter", "sans-serif";
+  --color-blue: oklch(0.521 0.151 38.716);
+  --color-white: oklch(97.91% 0 0);
+  --color-black: oklch(12.21% 0 0);
+  --color-gray-100: oklch(94.01% 0 0);
+  --color-gray-500: oklch(0.531 0 89.876);
+  --color-yellow: oklch(84.38% 0.1211 85.89);
+  --color-green: oklch(93.58% 0.1162 145.25);
+}
+
